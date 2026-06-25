@@ -37,3 +37,8 @@ A página é adaptada para:
 ## 👩‍💻 Desenvolvido por
 
 Ana Julia Walter e João Pedro Borges
+
+## Slides
+https://canva.link/xsi87gjaocsjydz
+## Link do projeto
+https://reservedads.netlify.app/
