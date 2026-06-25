@@ -1,100 +1,145 @@
-
-
-
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #FDF8F5; 
-    color: #5C4033; 
-    padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #EAF7F9;
+  color: #4D8992;
+  line-height: 1.7;
 }
 
-
 header {
-    background-color: #D2B48C; 
-    color: #FFFFFF;
-    text-align: center;
-    padding: 2.5rem 0;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  background: linear-gradient(135deg, #4D8992, #5D9EA7);
+  color: #ffffff;
+  text-align: center;
+  padding: 2.5rem 0;
+  box-shadow: 0 6px 20px rgba(77,137,146,.20);
 }
 
 header h1 {
-    margin: 0;
-    font-size: 3rem;
-    letter-spacing: 2px;
+  margin: 0;
+  font-size: 3.2rem;
+  letter-spacing: 4px;
+  font-family: "Georgia", serif;
+  font-weight: normal;
 }
-
 
 main {
-    max-width: 800px;
-    margin: 2rem auto; 
-    padding: 0 1rem;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
 }
 
-
 .sobre-app {
-    background-color: #FFFFFF;
-    padding: 1.5rem 2rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    margin-bottom: 2.5rem;
-    border-left: 6px solid #D2B48C; 
+
+  background-color: rgba(255,255,255,.9);
+
+  padding: 1.5rem 2rem;
+
+  border-radius: 20px;
+
+  box-shadow: 0 8px 20px rgba(0,0,0,.08);
+
+  margin-bottom: 2.5rem;
+
+  border-left: 6px solid #5D9EA7;
+
+  transition: .3s;
+}
+
+.sobre-app:hover{
+  transform: translateY(-4px);
 }
 
 .sobre-app h2 {
-    color: #8B5A2B;
+
+  color: #5D9EA7;
+
+  font-family: Georgia, serif;
 }
 
 .sobre-app ul {
-    line-height: 1.8;
-}
 
+  line-height: 2;
+}
 
 .restaurantes h2 {
-    color: #8B5A2B;
-    text-align: center;
-    margin-bottom: 1.5rem;
+
+  color: #5D9EA7;
+
+  text-align: center;
+  margin-bottom: 1.5rem;
+
+  font-family: Georgia, serif;
 }
 
-
 .cartao-restaurante {
-    background-color: #FFFFFF;
-    border: 1px solid #E6D0B8;
-    border-radius: 12px;
-    padding: 2rem;
-    text-align: center;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+
+  background-color: rgba(255,255,255,.9);
+
+  border: 1px solid rgba(93,158,167,.15);
+
+  border-radius: 18px;
+
+  padding: 2rem;
+  text-align: center;
+
+  box-shadow: 0 10px 25px rgba(77,137,146,.08);
+
+  transition: .3s;
+}
+
+.cartao-restaurante:hover{
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(77,137,146,.15);
 }
 
 .cartao-restaurante h3 {
-    color: #5C4033;
-    font-size: 1.5rem;
-    margin-top: 0;
-}
 
+  color: #4D8992;
+
+  font-size: 1.7rem;
+
+  margin-top: 0;
+
+  font-family: Georgia, serif;
+}
 
 .btn-reservar {
-    background-color: #8B5A2B; 
-    color: white;
-    border: none;
-    padding: 12px 24px;
-    font-size: 1rem;
-    border-radius: 6px;
-    cursor: pointer;
-    margin-top: 15px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-}
 
+  background: linear-gradient(135deg,#5D9EA7,#4D8992);
+
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+
+  border-radius: 40px;
+
+  cursor: pointer;
+  margin-top: 15px;
+  font-weight: bold;
+
+  transition: .3s;
+
+  box-shadow: 0 8px 18px rgba(77,137,146,.25);
+}
 
 .btn-reservar:hover {
-    background-color: #5C4033;
+
+  background: linear-gradient(135deg,#4D8992,#5D9EA7);
+
+  transform: translateY(-3px);
+
+  box-shadow: 0 12px 25px rgba(77,137,146,.35);
 }
 
-
 footer {
-    text-align: center;
-    padding: 1.5rem 0;
-    background-color: #E6D0B8; 
-    color: #5C4033;
-    margin-top: 3rem;
+  text-align: center;
+  padding: 1.5rem 0;
+
+  background-color: #4D8992;
+
+  color: #EAF7F9;
+
+  margin-top: 3rem;
+
+  box-shadow: 0 -4px 15px rgba(77,137,146,.15);
 }
