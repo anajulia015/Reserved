@@ -36,7 +36,7 @@ A página é adaptada para:
 
 ## 👩‍💻 Desenvolvido por
 
-Ana Julia Walter e João Pedro Borges
+Ana Julia Walter, João Pedro Borges, Davi Oliveira
 
 ## Slides
 https://canva.link/xsi87gjaocsjydz
